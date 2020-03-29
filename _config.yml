@@ -1,0 +1,62 @@
+# Site
+name: Arkaitz Lázaro Lata
+description: My portfolio
+meta_description: My portfolio
+logo:
+env: dev
+favicon: /assets/images/favicon.ico
+paginate: 6
+baseurl: 
+email: 'arkaitz.lazaro.uva@gmail.com'
+google_analytics:
+disqus:
+sharethis:
+
+# Authors
+authors:
+  kai9026:
+    name: kai9026
+    display_name: Arkaitz Lázaro Lata
+    image: /assets/images/arkaitz.jpg
+    email: arkaitz.lazaro.uva@gmail.com
+    web: github.com/Kai9026
+    twitter: ztiakra90
+    description: Hola, soy Arkaitz.
+
+# Plugins
+plugins:
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+permalinks: pretty
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: 'category/:name/'
+
+# Other
+markdown: kramdown
+highlighter: rouge
+
+# SEO
+twitter:
+  username: ztiakra90
+  card: summary
+
+facebook:
+  app_id:
+  publisher:
+  admins:
+
+social:
+name: Arkaitz Lázaro Lata
+links:
+    - https://twitter.com/
+    - https://www.facebook.com/
+    - https://www.linkedin.com/
+    - https://github.com/
