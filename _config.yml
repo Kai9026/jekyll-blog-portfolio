@@ -3,7 +3,7 @@ name: Arkaitz Lázaro Lata
 description: My portfolio
 meta_description: My portfolio
 logo:
-env: dev
+env: prod
 favicon: /assets/images/favicon.ico
 paginate: 6
 baseurl: 
